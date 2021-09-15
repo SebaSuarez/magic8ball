@@ -1,8 +1,13 @@
 #answerHolder{
     background-color: black;
+    width: 100%;
+    height: 300px;
 }
 #answer{
     color: blue;
+    width: 100;
+    height: 100px;
+    background-color: white;
 }
 #content{
     text-align: center;

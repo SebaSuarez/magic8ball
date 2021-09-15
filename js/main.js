@@ -14,9 +14,10 @@ window.onload = function() {
             if (question.value.length < 1) {
                 alert('Enter a question')
             } else {
-                ball.innerText = "";
-                let num = Math.floor(Math.random() * Math.floor(answers.length));
+                answer.innerText = "";
+                let num = Math.floor(Math.random() * Math.floor(answer.length));
                 answer.innerText = answer[num];
+                console.log(answer, num)
             }
         });
     }
