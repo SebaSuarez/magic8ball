@@ -5,6 +5,8 @@ window.onload = function() {
     title.innerText = 'Magic 8-Ball';
 
     const button = document.querySelector('button');
+    
+    const input = document.querySelector('input');
 
     button.addEventListener('click', onButtonClick)
 
