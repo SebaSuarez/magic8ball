@@ -15,18 +15,21 @@ window.onload = function() {
                 alert('Enter a question')
             } else {
                 answer.innerText = "";
-                let num = Math.floor(Math.random() * Math.floor(answer.length));
-                answer.innerText = answer[num];
+                let num = Math.floor(Math.random() * Math.floor(answers.length));
+                answer.innerText = answers[num];
                 console.log(answer, num)
             }
         });
     }
 
-    let answer = [
+    let answers = [
       "Yes",
       "No",
       "Maybe",
-      "In A Little"
+      "In A Little",
+      "No NOOOOOB",
+      "ERRO 404 NOT FOUND",
+      "I am Cooler Than You",
     ]
 
 
