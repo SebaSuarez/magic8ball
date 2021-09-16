@@ -2,7 +2,7 @@ window.onload = function() {
 
     const title = document.querySelector('h1');
 
-    title.innerText = 'Magic 8-Ball';
+    title.innerText = 'Magic 8-Brick';
 
     const button = document.querySelector('button');
     
